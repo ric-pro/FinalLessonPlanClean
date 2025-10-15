@@ -114,7 +114,7 @@ const LandingPage = () => {
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-slate-900 mb-4">About Our Platform</h2>
-            <p className="text-xl text-slate-600">Revolutionizing IT education through intelligent lesson planning</p>
+            <p className="text-xl text-slate-600">Revolutionizing education through intelligent lesson planning</p>
           </div>
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
@@ -122,14 +122,14 @@ const LandingPage = () => {
               <div>
                 <h3 className="text-2xl font-semibold text-slate-900 mb-4">Addressing the Challenge</h3>
                 <p className="text-slate-600 leading-relaxed">
-                  The current Information Technology Education landscape faces significant challenges in curriculum delivery and lesson plan development. Educators in IT programs, especially at the graduate level, face critical challenges like time constraints and resource limitations when creating comprehensive and industry-aligned curriculum.
+                  The current Education landscape faces significant challenges in curriculum delivery and lesson plan development. Educators, especially at the graduate level, face critical challenges like time constraints and resource limitations when creating comprehensive and industry-aligned curriculum.
                 </p>
               </div>
               
               <div>
                 <h3 className="text-2xl font-semibold text-slate-900 mb-4">Our Solution</h3>
                 <p className="text-slate-600 leading-relaxed">
-                  This project develops an AI-driven Web Application that leverages Large Language Models (LLM) and Retrieval-Augmented Generation (RAG) technology for building comprehensive lesson plans for IT education at graduate level, specifically targeting the University of Canberra's Master of Information Technology and Systems Program.
+                  This project develops an AI-driven Web Application that leverages Large Language Models (LLM) and Retrieval-Augmented Generation (RAG) technology for building comprehensive lesson plans, specifically targeting the University of Canberra's Course Curriculum.
                 </p>
               </div>
             </div>
@@ -141,7 +141,7 @@ const LandingPage = () => {
                   <p className="text-slate-600 text-sm">Reduction in preparation time</p>
                 </div>
                 <div>
-                  <div className="text-2xl font-bold text-green-600 mb-2">30s - 1 Minute</div>
+                  <div className="text-2xl font-bold text-green-600 mb-2">30 - 60 Seconds</div>
                   <p className="text-slate-600 text-sm">Complete lesson plan generation</p>
                 </div>
                 <div>
