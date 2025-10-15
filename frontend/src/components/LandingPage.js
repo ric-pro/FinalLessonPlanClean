@@ -21,7 +21,7 @@ const LandingPage = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-2">
               <GraduationCap className="w-8 h-8 text-blue-600" />
-              <span className="text-xl font-bold text-slate-800">AI Lesson Planner</span>
+              <span className="text-xl font-bold text-slate-800">LLM Powered Lesson Plan Builder</span>
             </div>
             <div className="hidden md:flex items-center space-x-8">
               <button onClick={() => scrollToSection('home')} className="text-slate-600 hover:text-blue-600 transition-colors">
@@ -95,7 +95,7 @@ const LandingPage = () => {
                   <div className="bg-white rounded-2xl p-8 shadow-lg border border-slate-200 -mt-4">
                     <ChartLine className="w-12 h-12 text-purple-600 mb-4" />
                     <h3 className="font-semibold text-slate-800">Quality Assured</h3>
-                    <p className="text-slate-600 text-sm">AQF Level 9 compliant</p>
+                    <p className="text-slate-600 text-sm">AQF Levels compliant</p>
                   </div>
                   <div className="bg-white rounded-2xl p-8 shadow-lg border border-slate-200 mt-4">
                     <Laptop className="w-12 h-12 text-orange-600 mb-4" />
@@ -137,16 +137,16 @@ const LandingPage = () => {
             <div className="bg-slate-50 rounded-2xl p-8">
               <div className="grid grid-cols-3 gap-8 text-center">
                 <div>
-                  <div className="text-3xl font-bold text-blue-600 mb-2">60-70%</div>
+                  <div className="text-3xl font-bold text-blue-600 mb-2">Significant</div>
                   <p className="text-slate-600 text-sm">Reduction in preparation time</p>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-green-600 mb-2">2-3 min</div>
+                  <div className="text-2xl font-bold text-green-600 mb-2">30s - 1 Minute</div>
                   <p className="text-slate-600 text-sm">Complete lesson plan generation</p>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-purple-600 mb-2">3 Units</div>
-                  <p className="text-slate-600 text-sm">Semester 1, Year 1 coverage</p>
+                  <div className="text-2xl font-bold text-purple-600 mb-2">Any Units, Any Course</div>
+                  <p className="text-slate-600 text-sm">Univeristy of Canberra</p>
                 </div>
               </div>
             </div>
@@ -183,8 +183,8 @@ const LandingPage = () => {
               <div className="mb-6">
                 <Database className="w-12 h-12 text-purple-600" />
               </div>
-              <h3 className="text-xl font-semibold text-slate-900 mb-4">Content Database Management</h3>
-              <p className="text-slate-600 leading-relaxed">Comprehensive database consisting of lesson plan examples, curriculum standards, and best teaching practices in IT education.</p>
+              <h3 className="text-xl font-semibold text-slate-900 mb-4">Integrated with Google Gemini</h3>
+              <p className="text-slate-600 leading-relaxed">Seamlessly powered by Google Gemini to generate intelligent, curriculum-aligned lesson plans with adaptive insights and real-time content enhancement.</p>
             </div>
 
             <div className="bg-white rounded-2xl p-8 shadow-sm border border-slate-200 hover:shadow-lg transition-shadow">
@@ -192,7 +192,7 @@ const LandingPage = () => {
                 <Download className="w-12 h-12 text-orange-600" />
               </div>
               <h3 className="text-xl font-semibold text-slate-900 mb-4">Document Export</h3>
-              <p className="text-slate-600 leading-relaxed">Generate and export lesson plans in PDF and Word formats for easy sharing and implementation.</p>
+              <p className="text-slate-600 leading-relaxed">Generate and export lesson plans in PDF formats for easy sharing and implementation.</p>
             </div>
 
             <div className="bg-white rounded-2xl p-8 shadow-sm border border-slate-200 hover:shadow-lg transition-shadow">
@@ -200,15 +200,15 @@ const LandingPage = () => {
                 <Shield className="w-12 h-12 text-red-600" />
               </div>
               <h3 className="text-xl font-semibold text-slate-900 mb-4">Quality Assurance</h3>
-              <p className="text-slate-600 leading-relaxed">Content validation system ensuring generated lesson plans meet educational standards (AQF, ACS, SFIA).</p>
+              <p className="text-slate-600 leading-relaxed">Content validation system ensuring generated lesson plans meet educational standards (AQF).</p>
             </div>
 
             <div className="bg-white rounded-2xl p-8 shadow-sm border border-slate-200 hover:shadow-lg transition-shadow">
               <div className="mb-6">
                 <GraduationCap className="w-12 h-12 text-indigo-600" />
               </div>
-              <h3 className="text-xl font-semibold text-slate-900 mb-4">MITS Program Focus</h3>
-              <p className="text-slate-600 leading-relaxed">Specifically designed for Introduction to IT, Data Science, and Statistics courses in Semester 1, Year 1.</p>
+              <h3 className="text-xl font-semibold text-slate-900 mb-4">University of Canberra Focus</h3>
+              <p className="text-slate-600 leading-relaxed">Specifically designed for subjects within the University of Canberra curriculum.</p>
             </div>
           </div>
         </div>
@@ -219,7 +219,7 @@ const LandingPage = () => {
         <div className="max-w-4xl mx-auto px-6 text-center">
           <h2 className="text-4xl font-bold text-white mb-6">Ready to Transform Your Teaching?</h2>
           <p className="text-xl text-blue-100 mb-8">
-            Join educators who are already saving 60-70% of their lesson planning time with our AI-powered platform
+            Start using our Lesson plan builder to save significant time on lesson planning
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 
@@ -229,7 +229,7 @@ const LandingPage = () => {
               onClick={() => navigate('/signup')}
               data-testid="cta-signup-btn"
             >
-              Start Free Trial
+              Sign Up Now
             </Button>
             <Button 
               size="lg" 
@@ -268,7 +268,7 @@ const LandingPage = () => {
                 <Users className="w-8 h-8 text-green-600 mt-1" />
                 <div>
                   <h3 className="text-xl font-semibold text-slate-900 mb-2">Email Support</h3>
-                  <p className="text-slate-600">support@lessonplanner.uc.edu.au</p>
+                  <p className="text-slate-600">comingsoon@uni.canberra.edu.au</p>
                 </div>
               </div>
               
@@ -276,7 +276,7 @@ const LandingPage = () => {
                 <ChartLine className="w-8 h-8 text-purple-600 mt-1" />
                 <div>
                   <h3 className="text-xl font-semibold text-slate-900 mb-2">Phone Support</h3>
-                  <p className="text-slate-600">+61 2 6201 5111</p>
+                  <p className="text-slate-600">+61 C0M1NG 500N</p>
                 </div>
               </div>
             </div>
@@ -323,10 +323,10 @@ const LandingPage = () => {
             <div>
               <div className="flex items-center space-x-2 mb-4">
                 <GraduationCap className="w-8 h-8 text-blue-400" />
-                <span className="text-xl font-bold">AI Lesson Planner</span>
+                <span className="text-xl font-bold">LLM Powered Lesson Plan Builder</span>
               </div>
               <p className="text-slate-400">
-                Transforming IT education through intelligent lesson planning at the University of Canberra.
+                Transforming education through intelligent lesson planning at the University of Canberra.
               </p>
             </div>
             

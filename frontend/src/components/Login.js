@@ -74,7 +74,7 @@ const Login = () => {
             <CardHeader className="space-y-4 text-center pb-8">
               <div className="flex items-center justify-center space-x-2">
                 <GraduationCap className="w-8 h-8 text-blue-600" />
-                <h1 className="text-2xl font-bold text-slate-800">AI Lesson Planner</h1>
+                <h1 className="text-2xl font-bold text-slate-800">LLM Powered Lesson Plan Builder</h1>
               </div>
               <div>
                 <CardTitle className="text-2xl text-slate-900">Welcome Back</CardTitle>
@@ -258,7 +258,7 @@ const Login = () => {
                 </li>
                 <li className="flex items-start space-x-3">
                   <CheckCircle className="w-6 h-6 text-green-500 mt-0.5 flex-shrink-0" />
-                  <span className="text-slate-700">Save 60-70% of planning time</span>
+                  <span className="text-slate-700">Save lesson planning time</span>
                 </li>
               </ul>
             </div>

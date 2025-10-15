@@ -177,7 +177,7 @@ const Signup = () => {
             <CardHeader className="space-y-4 text-center pb-6">
               <div className="flex items-center justify-center space-x-2">
                 <GraduationCap className="w-8 h-8 text-blue-600" />
-                <h1 className="text-2xl font-bold text-slate-800">AI Lesson Planner</h1>
+                <h1 className="text-2xl font-bold text-slate-800">LLM Powered Lesson Plan Builder</h1>
               </div>
               <div>
                 <CardTitle className="text-2xl text-slate-900">Create Account</CardTitle>
@@ -485,23 +485,6 @@ const Signup = () => {
                   <span className="text-slate-700">Save hours of preparation time</span>
                 </li>
               </ul>
-
-              <div className="bg-slate-50 rounded-2xl p-6 border border-slate-200">
-                <div className="grid grid-cols-3 gap-6 text-center">
-                  <div>
-                    <div className="text-2xl font-bold text-blue-600 mb-1">10,000+</div>
-                    <p className="text-slate-600 text-sm">Lesson plans generated</p>
-                  </div>
-                  <div>
-                    <div className="text-2xl font-bold text-green-600 mb-1">500+</div>
-                    <p className="text-slate-600 text-sm">Active educators</p>
-                  </div>
-                  <div>
-                    <div className="text-2xl font-bold text-purple-600 mb-1">95%</div>
-                    <p className="text-slate-600 text-sm">Satisfaction rate</p>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>

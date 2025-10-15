@@ -83,7 +83,7 @@ const ApiSetup = () => {
           <CardHeader className="text-center pb-8">
             <div className="flex items-center justify-center space-x-2 mb-4">
               <GraduationCap className="w-8 h-8 text-blue-600" />
-              <h1 className="text-2xl font-bold text-slate-800">AI Lesson Planner</h1>
+              <h1 className="text-2xl font-bold text-slate-800">LLM Powered Lesson Plan Builder</h1>
             </div>
             <CardTitle className="text-3xl text-slate-900">API Key Setup</CardTitle>
             <CardDescription className="text-slate-600 mt-2">
