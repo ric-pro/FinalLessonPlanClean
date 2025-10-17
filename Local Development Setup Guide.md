@@ -176,7 +176,7 @@ CORS_ORIGINS=http://localhost:3000,http://localhost:8000
 GOOGLE_API_KEY=AIzaSyA.......
 MONGO_URL=mongodb://localhost:27017
 DB_NAME=lessonplanbuilder
-JWT_SECRET=a7f3e9d2c1b4a8f6e5d3c2b1a9f8e7d6c5b4a3f2e1d9c8b7a6f5e4d3c2b1a0f9
+JWT_SECRET=a7f3e9d2c1b4a8...............
 CORS_ORIGINS=http://localhost:3000,http://localhost:8000
 ```
 
